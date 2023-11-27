@@ -84,9 +84,9 @@ int main()
     ft_printf("-----------------------------------\n");
     printf("%i\n", printf("%p ", o));
     ft_printf("%i\n", ft_printf("%p ", o));
-    char s[] = "ali";
-    ft_printf("   %d\n", ft_printf("hello my name is %s first charcter in may name is %c my age is %d in hexa is %x or %X the insigned of -12 is %u and the address of my name is %p and %%", s, 'a', 19, -19, -19, -12, s));
-    printf("   %d\n", printf("hello my name is %s first charcter in may name is %c my age is %d in hexa is %x or %X the insigned of -12 is %u and the address of my name is %p and %%", s, 'a', 19, -19, -19, -12, s));
+    char u[] = "ali";
+    ft_printf("   %d\n", ft_printf("hello my name is %s first charcter in may name is %c my age is %d in hexa is %x or %X the insigned of -12 is %u and the address of my name is %p and %%", u, 'a', 19, -19, -19, -12, u));
+    printf("   %d\n", printf("hello my name is %s first charcter in may name is %c my age is %d in hexa is %x or %X the insigned of -12 is %u and the address of my name is %p and %%", u, 'a', 19, -19, -19, -12, u));
 
 }
 
